@@ -1,0 +1,57 @@
+@import '../../style/variables.scss';
+
+.create-chat-page {
+  .new-chat-banner {
+    background-color: $dark-blue;
+    padding: 65px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: $white;
+
+    .back-to-home-btn {
+      svg {
+        color: $white;
+        background-color: $light-blue;
+        padding: 9px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+      }
+    }
+
+    h2 {
+      font-size: 32px;
+    }
+  }
+
+  .new-chat-block {
+    display: flex;
+    gap: 20px;
+    margin-top: 45px;
+    padding: 0 45px;
+  
+    input {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid;
+      font-size: 24px;
+    }
+  
+    button {
+      display: flex;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+  
+      svg {
+        color: $white;
+        background-color: $light-blue;
+        padding: 4px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
